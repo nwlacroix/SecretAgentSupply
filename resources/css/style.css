@@ -1,0 +1,14 @@
+header{display: flex;
+  align-items: center;
+background-color: black;
+height: 100px;
+width: 100%;
+color: white;
+}
+
+.logo{display: flex;
+  align-items: center;
+  margin-left: 200px;
+}
+
+.logo span{padding-left: 15px;}
