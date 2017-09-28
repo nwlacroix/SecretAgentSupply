@@ -1,3 +1,8 @@
+body{font-size:16px;
+font-family:Helvetica;
+display:block;
+line-height: 1.4em;}
+
 header{display: flex;
   align-items: center;
 background-color: black;
@@ -14,15 +19,17 @@ color: white;
 .logo span{padding-left: 15px;}
 
 .main{background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
-display: block;
-height: 500px;
+background-position:center;
+height: 25em;
 background-repeat: no-repeat;
-width:100%;
+background-size: cover;
 }
 
 .main-contents{background-color: black;
-width:25%;
 display:block;
+position:relative;
+top:9em;
+width: 20em;
 }
 
 .main-contents h1{font-weight: bold;
@@ -38,58 +45,81 @@ color:white;
 padding-left:20px;
 padding-bottom: 20px;}
 
-.products{display:flex;
+nav{display:block;
+background-color: red;
+color:white;}
+
+.product-list{display:flex;
+  padding:.75em;
+  max-width: 960px;
   font-weight: bold;
   font-size:25px;
   align-items: center;
-background-color: red;
-height: 50px;
-width: 100%;
+  justify-content:space-between;
+}
+
+.product-container{display: flex;
+max-width: 960px;
+margin: 0 auto;
+height: 25em;
+justify-content: space-between;
+}
+
+.products{display:block;
+margin: 3em 0 0 0;
+}
+
+.product-pen{display:block;
+  width:30%;
+  height:auto;
+  margin-top: 2em;
+  }
+
+.product-watch{display:block;
+  width:30%;
+  height:auto;
+  margin-top: 2em;
+
+    }
+
+.product-glasses{display:block;
+  width:30%;
+  height:auto;
+  margin-top: 2em;
+
+      }
+
+.product-image{border: 3px solid black;
+display:block;
+align-items: center;
+height:9em;
+padding:2em;
+}
+
+.description{background-color:black;
 color: white;
-}
-
-.product-list span{padding-right:25px;}
-
-.product-images{display: inline-flex;
-background-color: white;
-}
-
-.pen{border: 2px;
-padding: 25px 25px;
-}
-
-.watch{border: 2px;
-padding:25px 25px;
-}
-
-.glasses{border: 2px;
-padding:25px 25px;}
-
-.pen p{background-color:black;
-color: white;
-height:25px;
+text-align:center;
+padding: .5em;
 display:block;
 }
 
-.watch p{background-color:black;
-color: white;
-height:25px;
-display:block;}
+.info-container{display: block;
+max-width: 960px;
+margin: 0 auto;
+}
 
-.glasses p{background-color:black;
-color: white;
-height:25px;
-display:block;}
+.business-info{display:block;
 
 
-.contacts p{background-color: black;
+}
+.contacts{display:block;
+width:35%;
+text-align: center;}
+
+.title{background-color: black;
 color:white;
 display:block;
-width: 200px;
-margin-top:30px;}
-
- .contacts p span{color: black;
- }
+padding: 1em 2em;}
 
  footer{background-color: black;
  color:white;
