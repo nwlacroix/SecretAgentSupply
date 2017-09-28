@@ -47,16 +47,18 @@ padding-bottom: 20px;}
 
 nav{display:block;
 background-color: red;
-color:white;}
+color:white;
+}
 
 .product-list{display:flex;
   padding:.75em;
   max-width: 960px;
+  margin:0px auto;
   font-weight: bold;
   font-size:25px;
   align-items: center;
   justify-content:space-between;
-}
+  }
 
 .product-container{display: flex;
 max-width: 960px;
@@ -72,20 +74,20 @@ margin: 3em 0 0 0;
 .product-pen{display:block;
   width:30%;
   height:auto;
-  margin-top: 2em;
+  margin-top: 5em;
   }
 
 .product-watch{display:block;
   width:30%;
   height:auto;
-  margin-top: 2em;
+  margin-top: 5em;
 
     }
 
 .product-glasses{display:block;
   width:30%;
   height:auto;
-  margin-top: 2em;
+  margin-top: 5em;
 
       }
 
@@ -106,23 +108,28 @@ display:block;
 .info-container{display: block;
 max-width: 960px;
 margin: 0 auto;
-}
-
-.business-info{display:block;
-
 
 }
+
+.business-info{display:flex;
+  justify-content: space-between;
+}
+
 .contacts{display:block;
 width:35%;
-text-align: center;}
+text-align: center;
+height: auto;
+}
 
 .title{background-color: black;
 color:white;
 display:block;
 padding: 1em 2em;}
 
+
  footer{background-color: black;
  color:white;
 height: 100px;
-padding:30px 30px;
-margin-top:35px;}
+padding-top:75px;
+margin-top:35px;
+}
