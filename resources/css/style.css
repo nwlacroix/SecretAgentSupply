@@ -70,12 +70,23 @@ nav ul{padding:.75em 0;
   .mobile-product-list{display:none;}
 
   @media only screen and (max-width: 1024px)
-  ul .product-list{display:none;
+  .product-list{display:none;
   }
 
 @media only screen and (max-width: 1024px)
 .mobile-product-list{display:block;
 text-align:center;}
+
+.product-list{max-width: 960px;
+margin:0px auto;
+}
+
+nav ul {align-items: center;
+    justify-content: space-between;
+    padding: 0.75em 0;
+    list-style: none;
+  }
+
 
 .product-container{display: flex;
 max-width: 960px;
