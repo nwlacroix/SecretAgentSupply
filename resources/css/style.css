@@ -55,15 +55,27 @@ background-color: red;
 color:white;
 }
 
-.product-list{display:flex;
-  padding:.75em;
-  max-width: 960px;
-  margin:0px auto;
+.product-list{max-width: 960px;
+margin:0px auto;
+display:flex;}
+
+nav ul{padding:.75em 0;
   font-weight: bold;
   font-size:25px;
   align-items: center;
   justify-content:space-between;
+  list-style:none;
   }
+
+  .mobile-product-list{display:none;}
+
+  @media only screen and (max-width: 1024px)
+  nav ul{display:none;
+  }
+
+@media only screen and (max-width: 1024px)
+.mobile-product-list{display:block;
+text-align:center;}
 
 .product-container{display: flex;
 max-width: 960px;
