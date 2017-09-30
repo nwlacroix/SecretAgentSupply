@@ -3,6 +3,11 @@ font-family:Helvetica;
 display:block;
 line-height: 1.4em;}
 
+@media only screen and (max-width: 1024px)
+body {
+    font-size: 16px;
+  }
+
 header{display: flex;
   align-items: center;
 background-color: black;
@@ -57,9 +62,14 @@ color:white;
 
 .product-list{max-width: 960px;
 margin:0px auto;
-display:flex;}
+}
 
-nav ul{padding:.75em 0;
+@media only screen and (max-width: 1024px)
+nav ul{display:none;
+}
+
+nav ul{display:flex;
+  padding:.75em 0;
   font-weight: bold;
   font-size:25px;
   align-items: center;
@@ -69,9 +79,7 @@ nav ul{padding:.75em 0;
 
   .mobile-product-list{display:none;}
 
-  @media only screen and (max-width: 1024px)
-  nav ul{display:none;
-  }
+
 
 
 
