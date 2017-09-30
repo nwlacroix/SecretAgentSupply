@@ -1,4 +1,4 @@
-body{font-size:16px;
+body{font-size:18px;
 font-family:Helvetica;
 display:block;
 line-height: 1.4em;}
@@ -77,7 +77,10 @@ nav ul{display:flex;
   list-style:none;
   }
 
-  .mobile-product-list{display:none;}
+  li {
+    display: list-item;
+}
+
 
 
 
