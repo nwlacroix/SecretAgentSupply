@@ -51,10 +51,13 @@ background-color: red;
 color:white;
 }
 
-.product-list{display:flex;
-  padding:.75em;
-  max-width: 960px;
+.product-list{
+    max-width: 960px;
   margin:0px auto;
+}
+
+  nav ul{
+  padding:.75em;
   font-weight: bold;
   font-size:25px;
   align-items: center;
@@ -63,7 +66,7 @@ color:white;
 
   @media only screen and (max-width: 1024px)
   .mobile-product-list{display:block;
-  text-align:center;
+    text-align:center
 }
 
 .product-container{display: flex;
@@ -77,14 +80,14 @@ justify-content: space-between;
 margin: 3em 0 0 0;
 }
 
-  @media only screen and (max-width: 1024px)
+@media only screen and (max-width: 1024px)
 .product-pen{display:block;
   width:47%;
   height:auto;
   margin-top: 5em;
   }
 
-  @media only screen and (max-width: 1024px)
+@media only screen and (max-width: 1024px)
 .product-watch{display:block;
   width:47%;
   height:auto;
@@ -92,7 +95,7 @@ margin: 3em 0 0 0;
 
     }
 
-  @media only screen and (max-width: 1024px)
+@media only screen and (max-width: 1024px)
 .product-glasses{display:block;
   width:47%;
   height:auto;
