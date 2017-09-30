@@ -25,25 +25,30 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 
-.main-contents{background-color: black;
+.main-contents{
 display:block;
-position:relative;
-top:9em;
-width: 20em;
+max-width: 960px;
+margin: 0 auto;;
 }
 
-.main-contents h1{font-weight: bold;
-display:block;
+.content{display: block;
+background-color: black;
 color:white;
-padding: 20px 20px;
+width: 20em;
+padding: 2em 3em;
+position: relative;
+top: 9em;
 }
 
-.main-contents p{font-size: 25px;
+h1{font-weight: bold;
+display:block;
+}
+
+p{font-size: 25px;
 font-weight: bold;
 display:block;
-color:white;
-padding-left:20px;
-padding-bottom: 20px;}
+margin: .5em 0;
+}
 
 nav{display:block;
 background-color: red;
