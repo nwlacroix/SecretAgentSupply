@@ -3,10 +3,11 @@ font-family:Helvetica;
 display:block;
 line-height: 1.4em;}
 
-@media only screen and (max-width: 1024px)
+@media only screen and (max-width: 1024px){
 body {
     font-size: 16px;
   }
+}
 
 header{display: flex;
   align-items: center;
@@ -64,8 +65,9 @@ color:white;
 margin:0px auto;
 }
 
-@media only screen and (max-width: 1024px)
+@media only screen and (max-width: 1024px){
 nav ul{display:none;
+}
 }
 
 nav ul{display:flex;
@@ -83,9 +85,10 @@ nav ul{display:flex;
 
 .mobile-list{display: none;}
 
-@media only screen and (max-width: 1024px)
+@media only screen and (max-width: 1024px){
 .mobile-list{display:block;
 text-align:center;
+}
 }
 
 .product-list{max-width: 960px;
